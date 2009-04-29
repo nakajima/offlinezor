@@ -5,6 +5,13 @@
   </head>
   <body>
     <h1>The Home Page</h1>
-    <img src="/image.png">
+    <img src="/images/image.png">
+    <p>
+      <a href="/other">Go to the other.</a> (should get added to the manifest)
+    </p>
+    <div id="manifest">
+      <h3>The manifest</h3>
+      <pre><%= @request.env['app-cache.manifest'].read %></pre>
+    </div>
   </body>
 </html>

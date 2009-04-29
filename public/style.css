@@ -2,3 +2,13 @@ html, body {
   font-family: Helvetica;
   text-align: center;
 }
+
+#manifest {
+  width: 400px;
+  text-align: left;
+  margin: 1em auto;
+}
+
+#manifest pre {
+  text-align: left;
+}
